@@ -20,7 +20,10 @@ dependencies:
   just_audio_web: ^0.4.11
   # just_audio_web:
   #   path: ../just_audio_web
-  audio_session: ^0.1.19
+  audio_session:
+    git:
+      url: git@github.com:arturograu/audio_session.git
+      ref: chore/#134-support-rxdart-0.28.0
   rxdart: ^0.28.0
   path: ^1.8.0
   path_provider: ^2.0.0
